@@ -15,7 +15,7 @@ function page() {
             Nama Mobil
           </label>
           <br />
-          <input type="search" id="name" placeholder="ketik nama/tipe mobil" className="w-[208px] h-9 py-[9px] px-3 outline-none border border-[#CCC] rounded-sm placeholder:text-xs placeholder:leading-[18px] placeholder:font-light" />
+          <input type="search" id="name" placeholder="ketik nama/tipe mobil" className="w-[208px] h-9 py-[9px] px-3 outline-none border border-[#CCC] rounded-sm placeholder:text-xs placeholder:leading-[18px] placeholder:font-light text-xs" />
         </div>
 
         {/* Kategori */}
@@ -24,7 +24,7 @@ function page() {
             Kategori
           </label>
           <br />
-          <input type="search" id="kategori" placeholder="Masukkan Kapasitas Mobil" className="w-[208px] h-9 py-[9px] px-3 outline-none border border-[#CCC] rounded-sm placeholder:text-xs placeholder:leading-[18px] placeholder:font-light" />
+          <input type="search" id="kategori" placeholder="Masukkan Kapasitas Mobil" className="w-[208px] h-9 py-[9px] px-3 outline-none border border-[#CCC] rounded-sm placeholder:text-xs placeholder:leading-[18px] placeholder:font-light text-xs" />
         </div>
 
         {/* Harga */}
@@ -33,7 +33,7 @@ function page() {
             Harga
           </label>
           <br />
-          <input type="search" id="harga" placeholder="Masukkan Harga Sewa per Hari" className="w-[219px] h-9 py-[9px] px-3 outline-none border border-[#CCC] rounded-sm placeholder:text-xs placeholder:leading-[18px] placeholder:font-light" />
+          <input type="search" id="harga" placeholder="Masukkan Harga Sewa per Hari" className="w-[219px] h-9 py-[9px] px-3 outline-none border border-[#CCC] rounded-sm placeholder:text-xs placeholder:leading-[18px] placeholder:font-light text-xs" />
         </div>
 
         {/* Status */}
@@ -42,7 +42,7 @@ function page() {
             Status
           </label>
           <br />
-          <input type="search" id="status" placeholder="status" className="w-[208px] h-9 py-[9px] px-3 outline-none border border-[#CCC] rounded-sm placeholder:text-xs placeholder:leading-[18px] placeholder:font-light" />
+          <input type="search" id="status" placeholder="status" className="w-[208px] h-9 py-[9px] px-3 outline-none border border-[#CCC] rounded-sm placeholder:text-xs placeholder:leading-[18px] placeholder:font-light text-xs" />
         </div>
         <button className="w-[92px] h-9 bg-[#5CB85F] rounded-sm text-sm text-[#FFF] font-bold">Cari</button>
       </div>
