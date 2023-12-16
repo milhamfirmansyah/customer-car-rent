@@ -9,7 +9,6 @@ function page() {
     <>
       <Navbar />
       <Hero />
-      <FilterCar />
       <CarList />
     </>
   );

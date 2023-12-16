@@ -1,6 +1,6 @@
 import React from 'react';
 
-function FilterCar() {
+function FilterCar({ name, click }: any) {
   return (
     <div className="w-[1047px] h-[106px] bg-[#FFF] shadow-md mx-auto rounded-lg translate-y-[-40px] pl-[28px] pr-[20px] pt-[17px] pb-[31px] flex justify-between items-end">
       {/* Nama Mobil */}
@@ -9,7 +9,13 @@ function FilterCar() {
           Nama Mobil
         </label>
         <br />
-        <input type="search" id="name" placeholder="ketik nama/tipe mobil" className="w-[208px] h-9 py-[9px] px-3 outline-none border border-[#CCC] rounded-sm placeholder:text-xs placeholder:leading-[18px] placeholder:font-light text-xs" />
+        <input
+          type="search"
+          id="name"
+          onChange={name}
+          placeholder="ketik nama/tipe mobil"
+          className="w-[208px] h-9 py-[9px] px-3 outline-none border border-[#CCC] rounded-sm placeholder:text-xs placeholder:leading-[18px] placeholder:font-light text-xs"
+        />
       </div>
 
       {/* Kategori */}
@@ -48,7 +54,7 @@ function FilterCar() {
         <br />
         <input type="search" id="status" placeholder="status" className="w-[208px] h-9 py-[9px] px-3 outline-none border border-[#CCC] rounded-sm placeholder:text-xs placeholder:leading-[18px] placeholder:font-light text-xs" />
       </div>
-      <button className="w-[92px] h-9 bg-[#5CB85F] rounded-sm text-sm text-[#FFF] font-bold">Cari</button>
+      <button onClick={click} className="w-[92px] h-9 bg-[#5CB85F] rounded-sm text-sm text-[#FFF] font-bold">Cari</button>
     </div>
   );
 }
